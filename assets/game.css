@@ -1,3 +1,4 @@
+
 .choice-container {
     display: flex;
     margin-bottom: 0.5rem;
@@ -37,12 +38,13 @@
   
   #hud {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   .hud-prefix {
     text-align: center;
     font-size: 2rem;
+    color: white;
   }
   
   .hud-main-text {
@@ -67,13 +69,19 @@
   }
   
   .game {
-        width: 75vw;
-      height: 75vh;
-      display: block;
-      justify-content: center;
-      align-items: center;
-      max-width: 80rem;
-      margin: 0 auto;
-      padding: 2rem;
+    width: 50vw;
+    height: 50vh;
+    background-color: #006699;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px groove white;
+    display: flex;
+    align-items: center;
+    padding: 2rem;  
+    box-shadow: 4px 8px 15px #aaaaaa;
+
     }
   

@@ -1,16 +1,26 @@
 /* Selects the root element of the document:
    <html> in the case of HTML */
-:root {
-  background-color: #1807b7;
-  font-size: 40%;
-}
+   :root {
+    background-color: #1807b7;
+    font-size: 40%;
+  }
+  * {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
 
-* {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0
-  color: #333;
+body {
+	font-family: sans-serif;
+	background-color: black;
+	color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
 }
 
 h1, h2, h3, h4 {
@@ -30,9 +40,11 @@ h1 > span {
 }
 
 h2 {
-  font-size: 4.2rem;
+  padding-top: 15px;
+  font-size: 2.2rem;
   margin-bottom: 4rem;
   font-weight: 700;
+  color: white;
 }
 
 h3 {
@@ -41,7 +53,21 @@ h3 {
 }
 
 /* UTILITIES */
-
+.container {
+  width: 50vw;
+  height: 50vh;
+  background-color: #006699;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+	padding: 3rem;
+	border-radius: 1rem;
+	border: 2px groove white;
+	display: flex;
+  align-items: center;
+  box-shadow: 4px 8px 15px #aaaaaa;
+}
+/*
 .container {
   top: 50px;
   width: 50vw;
@@ -56,7 +82,7 @@ h3 {
   border-style: groove;
   border-radius: 10px;
 }
-
+*/
 .flex-column {
   display: flex;
   flex-direction: column;
