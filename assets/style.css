@@ -67,22 +67,7 @@ h3 {
   align-items: center;
   box-shadow: 4px 8px 15px #aaaaaa;
 }
-/*
-.container {
-  top: 50px;
-  width: 50vw;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  margin: 0 auto;
-  padding: 2rem;
-  border-color: white;
-  border-style: groove;
-  border-radius: 10px;
-}
-*/
+
 .flex-column {
   display: flex;
   flex-direction: column;
